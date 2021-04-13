@@ -37,7 +37,6 @@ int stopwatch_flag = 0;
 int alarm_flag = 0;
 int sets = 0;
 int modes = 0;
-int blinks = 0;
 
 //Button Initiation
 ezButton mode(Button_Pin1);
