@@ -1,4 +1,4 @@
-//Tugas 2 EL3014 Sistem Mikroprosessor
+//Tugas 3 EL3014 Sistem Mikroprosessor
 //Ilham Rayhan 13218026
 #include <TimerOne.h>
 #include <ezButton.h>
