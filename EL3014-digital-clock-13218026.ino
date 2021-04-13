@@ -85,7 +85,7 @@ void count(void)
     digitalWrite(LED1, HIGH);
     }
   if (alarm_flag == 1){
-    if(set.isPressed()) {
+    if(set.isPressed()&& modes ==0) {
       alarm_flag = 0;
       digitalWrite(LED1, LOW);
       }
