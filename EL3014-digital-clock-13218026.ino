@@ -2,6 +2,7 @@
 //Ilham Rayhan 13218026
 #include <TimerOne.h>
 #include <ezButton.h>
+
 //Button and LED
 #define Button_Pin1  A4
 #define Button_Pin2  A5
@@ -10,6 +11,7 @@
 #define LED2        A3
 #define LED3        0
 #define LED4        1
+
 // segment pins definitions
 #define SegA1   12
 #define SegB1   11
@@ -18,6 +20,7 @@
 #define SegE1    8
 #define SegF1    7
 #define SegG1    6
+
 // common pins of the three digits definitions
 #define Dig1    4
 #define Dig2    3
@@ -25,6 +28,8 @@
 #define Dig6    A2
 #define Dig5    A1
 #define Dig4    A0
+
+//Global Variable
 long clocks = 0;
 long alarms = 0;
 long stopwatchs = 0;
@@ -33,6 +38,8 @@ int alarm_flag = 0;
 int sets = 0;
 int modes = 0;
 int blinks = 0;
+
+//Button Initiation
 ezButton mode(Button_Pin1);
 ezButton set(Button_Pin2);
 ezButton inc(Button_Pin3);
